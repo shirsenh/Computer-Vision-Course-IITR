@@ -21,8 +21,8 @@ while True:
 	cv2.imshow('erosion', erosion)
 	cv2.imshow('closing',closing)
 	cv2.imshow('opening', opening)
-	cv2.imshow('Tophat',tophat)
-	cv2.imshow('Blackhat',blackhat)
+	#cv2.imshow('Tophat',tophat)
+	#cv2.imshow('Blackhat',blackhat)
 	k = cv2.waitKey(5) & 0xFF
 	if k == 27:
 		break
